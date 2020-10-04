@@ -5,6 +5,11 @@
 
 .Icon {
     margin: 20px;
+    transition: transform .2s;
+}
+
+.Icon:hover {
+    transform: scale(1.5);
 }
 
 a {
