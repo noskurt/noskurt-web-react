@@ -17,9 +17,6 @@ class Icons extends React.Component {
   render() {
     return (
       <div className='Icons'>
-        <a rel='noopener noreferrer' href='mailto:emre.bozkurt@reev.com' target='_blank'>
-          <FontAwesomeIcon icon={faEnvelope} size={'3x'} className={'Icon Envelope'}/>
-        </a>
         <a rel='noopener noreferrer' href='https://www.linkedin.com/in/emrebozkurt26' target='_blank'>
           <FontAwesomeIcon icon={faLinkedin} size={'3x'} className={'Icon LinkedIn'}/>
         </a>
@@ -43,6 +40,9 @@ class Icons extends React.Component {
         </a>
         <a rel='noopener noreferrer' href='https://steamcommunity.com/id/noskurt' target='_blank'>
           <FontAwesomeIcon icon={faSteam} size={'3x'} className={'Icon Steam'}/>
+        </a>
+        <a rel='noopener noreferrer' href='mailto:info@emrebozkurt.de' target='_blank'>
+          <FontAwesomeIcon icon={faEnvelope} size={'3x'} className={'Icon Envelope'}/>
         </a>
       </div>
     );
