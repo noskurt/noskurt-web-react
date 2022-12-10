@@ -1,23 +1,26 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Icons from './Icons';
-import {withRouter, RouteComponentProps, Route} from "react-router-dom";
 
-class App extends React.Component<RouteComponentProps> {
-  render() {
-    return (
-      <>
-        <Route exact path="/live" render={() => (window.location.href = "https://youtu.be/BjaCO1iRV6c")}/>
-        <div className='App'>
-          <h1 className='FullName'>Emre Bozkurt</h1>
-          <h1 className='JobTitle'>Software Engineer @ Munich</h1>
-        </div>
-        <div>
-          <Icons/>
-        </div>
-      </>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-export default withRouter(App);
+export default App;
