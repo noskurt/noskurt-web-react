@@ -1,7 +1,7 @@
 {
   "name": "noskurt-web-raect",
   "version": "0.1.0",
-  "homepage": "https://noskurt.github.io/noskurt-web-react",
+  "homepage": "https://www.emrebozkurt.de",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
