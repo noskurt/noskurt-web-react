@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/noskurt-web-react/static/css/main.83699551.chunk.css",
-    "main.js": "/noskurt-web-react/static/js/main.0f89104c.chunk.js",
-    "main.js.map": "/noskurt-web-react/static/js/main.0f89104c.chunk.js.map",
-    "runtime-main.js": "/noskurt-web-react/static/js/runtime-main.a8778962.js",
-    "runtime-main.js.map": "/noskurt-web-react/static/js/runtime-main.a8778962.js.map",
-    "static/js/2.5d2b6bbd.chunk.js": "/noskurt-web-react/static/js/2.5d2b6bbd.chunk.js",
-    "static/js/2.5d2b6bbd.chunk.js.map": "/noskurt-web-react/static/js/2.5d2b6bbd.chunk.js.map",
+    "main.js": "/noskurt-web-react/static/js/main.2877ce2e.chunk.js",
+    "main.js.map": "/noskurt-web-react/static/js/main.2877ce2e.chunk.js.map",
+    "runtime-main.js": "/noskurt-web-react/static/js/runtime-main.409f3d93.js",
+    "runtime-main.js.map": "/noskurt-web-react/static/js/runtime-main.409f3d93.js.map",
+    "static/js/2.4f57f19b.chunk.js": "/noskurt-web-react/static/js/2.4f57f19b.chunk.js",
+    "static/js/2.4f57f19b.chunk.js.map": "/noskurt-web-react/static/js/2.4f57f19b.chunk.js.map",
     "index.html": "/noskurt-web-react/index.html",
     "static/css/main.83699551.chunk.css.map": "/noskurt-web-react/static/css/main.83699551.chunk.css.map",
-    "static/js/2.5d2b6bbd.chunk.js.LICENSE.txt": "/noskurt-web-react/static/js/2.5d2b6bbd.chunk.js.LICENSE.txt",
+    "static/js/2.4f57f19b.chunk.js.LICENSE.txt": "/noskurt-web-react/static/js/2.4f57f19b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/noskurt-web-react/static/media/bg.565f5aff.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8778962.js",
-    "static/js/2.5d2b6bbd.chunk.js",
+    "static/js/runtime-main.409f3d93.js",
+    "static/js/2.4f57f19b.chunk.js",
     "static/css/main.83699551.chunk.css",
-    "static/js/main.0f89104c.chunk.js"
+    "static/js/main.2877ce2e.chunk.js"
   ]
 }
