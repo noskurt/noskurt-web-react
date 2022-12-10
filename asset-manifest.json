@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/noskurt-web-react/static/css/main.073c9b0a.css",
+    "main.js": "/noskurt-web-react/static/js/main.63251e10.js",
+    "static/js/787.50b9c51e.chunk.js": "/noskurt-web-react/static/js/787.50b9c51e.chunk.js",
+    "static/media/logo.svg": "/noskurt-web-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/noskurt-web-react/index.html",
+    "main.073c9b0a.css.map": "/noskurt-web-react/static/css/main.073c9b0a.css.map",
+    "main.63251e10.js.map": "/noskurt-web-react/static/js/main.63251e10.js.map",
+    "787.50b9c51e.chunk.js.map": "/noskurt-web-react/static/js/787.50b9c51e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.63251e10.js"
+  ]
+}
