@@ -32,7 +32,7 @@ class Icons extends React.Component {
         <a rel='noopener noreferrer' href='https://www.facebook.com/noskurt' target='_blank'>
           <FontAwesomeIcon icon={faFacebook} size={'3x'} className={'Icon Facebook'}/>
         </a>
-        <a rel='noopener noreferrer' href='https://www.youtube.com/javaca' target='_blank'>
+        <a rel='noopener noreferrer' href='https://www.youtube.com/@noskurt' target='_blank'>
           <FontAwesomeIcon icon={faYoutube} size={'3x'} className={'Icon Youtube'}/>
         </a>
         <a rel='noopener noreferrer' href='https://www.twitch.tv/noskurt' target='_blank'>
