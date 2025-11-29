@@ -1,21 +1,22 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Icons from './Icons';
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <div className='App'>
-          <h1 className='FullName'>Emre Bozkurt</h1>
-          <h1 className='JobTitle'>Software Engineer @ Munich</h1>
+const App: React.FC = () => {
+  return (
+    <div className="app-container">
+      <main className="content-wrapper">
+        <div className="text-content">
+          <h1 className="full-name">Emre Bozkurt</h1>
+          <p className="job-title">Software Engineer @ Munich</p>
         </div>
-        <div>
-          <Icons/>
-        </div>
-      </>
-    );
-  }
-}
+      </main>
+      <footer className="social-footer">
+        <Icons />
+      </footer>
+    </div>
+  );
+};
 
 export default App;

@@ -1,13 +1,162 @@
-.App {
-    text-align: center;
-    color: #ffffff;
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in;
 }
 
-.FullName {
-    font-size: 80px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.JobTitle {
-    font-style: italic;
-    margin-bottom: 30px;
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text-content {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  animation: slideUp 0.8s ease-out 0.2s both;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.full-name {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  animation: gradientShift 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.job-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.social-footer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+  animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .full-name {
+    font-size: 3rem;
+  }
+
+  .job-title {
+    font-size: 1.4rem;
+  }
+
+  .text-content {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  .full-name {
+    font-size: 2.5rem;
+  }
+
+  .job-title {
+    font-size: 1.2rem;
+  }
+
+  .text-content {
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+  }
+
+  .social-footer {
+    padding: 1.5rem 0.5rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 360px) {
+  .full-name {
+    font-size: 2rem;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .text-content {
+    padding: 1.5rem 1rem;
+  }
 }
