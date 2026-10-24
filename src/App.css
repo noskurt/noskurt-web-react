@@ -166,9 +166,20 @@
   text-shadow: 0 0.15rem 0 rgba(0, 0, 0, 0.18);
 }
 
+.full-name span {
+  align-self: flex-start;
+  transition: transform 240ms ease-out;
+}
+
 .full-name span:last-child {
   color: var(--accent);
   text-shadow: 0 0 2rem rgba(187, 255, 54, 0.16);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .full-name span:hover {
+    transform: translateX(0.5rem);
+  }
 }
 
 .job-title {
@@ -232,6 +243,14 @@
 @media (prefers-reduced-motion: reduce) {
   .dashboard-art__ring {
     animation: none;
+  }
+
+  .full-name span {
+    transition: none;
+  }
+
+  .full-name span:hover {
+    transform: none;
   }
 }
 
