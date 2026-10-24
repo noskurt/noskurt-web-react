@@ -1,15 +1,15 @@
 {
-  "short_name": "Noskurt Web",
-  "name": "Emre Bozkurt Web Project",
+  "short_name": "Emre Bozkurt",
+  "name": "Emre Bozkurt | Software Engineer",
   "icons": [
     {
-      "src": "favicon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "favicon.svg?v=2",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#071011",
+  "background_color": "#071011"
 }
